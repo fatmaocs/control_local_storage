@@ -1,0 +1,110 @@
+*
+{
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body
+{
+    padding: 0px;
+    margin: 0px;
+
+}
+.container
+{
+    width: 50%;
+    margin:3% 25%;
+    background-color: #f6f6f6;
+    padding: 2%;
+}
+
+.container .inputs
+{
+   display: flex;
+   justify-content: space-between;
+}
+
+.container .inputs input
+{
+    flex-basis:40%;
+    padding: 3%;
+    margin-bottom: 5%;
+    border: none; 
+}
+
+
+.container input:focus
+{
+    outline: none;
+    border:2px solid #118ab2;
+
+}
+
+.container .buttons
+{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5%;
+}
+
+.container .buttons button{
+    padding: 2%;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+
+.container .buttons button:hover
+{
+    cursor: pointer;
+}
+
+.container .buttons button:active,button:focus{
+ border: none;
+ outline: none;
+
+}
+
+.container .buttons button.check_item{
+    background-color:#118ab2;
+}
+
+.container .buttons button.add_item{
+    background-color:#06d6a0;
+}
+
+.container .buttons button.delete_item{
+    background-color:#ef476f;
+}
+
+.container .buttons button.show_items{
+    background-color:#ffd166;
+}
+
+.message
+{
+     background-color: #073b4c;
+     margin-bottom:5%;
+     padding: 3%;
+     color: white;
+     width: 100%;
+     
+}
+
+.container .results
+{
+    background-color: white;
+    padding: 2%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.container .results span.key,span.value{
+    flex-basis: 40%;
+    background-color: #023047;
+    color: white;
+    margin-bottom: 2%;
+    padding: 1%;
+}
+
+
